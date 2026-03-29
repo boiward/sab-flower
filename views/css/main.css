@@ -1454,12 +1454,10 @@ body {
 /* ── Garden entrance ── */
 #felizCumple {
   opacity: 0;
-  transform: translateY(16px);
-  transition: opacity 1.5s ease, transform 1.5s ease;
+  transition: opacity 1.5s ease;
 }
 #felizCumple.garden-visible {
   opacity: 1;
-  transform: translateY(0);
 }
 
 /* ── Personal message ── */
