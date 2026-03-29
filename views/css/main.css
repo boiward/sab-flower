@@ -7,7 +7,7 @@
 }
 
 :root {
-  --dark-color: #020c1e;
+  --dark-color: #000;
 }
 
 body {
@@ -15,7 +15,7 @@ body {
   align-items: flex-end;
   justify-content: center;
   min-height: 100vh;
-  background: radial-gradient(ellipse at 50% 0%, #0e2a5e 0%, var(--dark-color) 70%);
+  background: radial-gradient(ellipse at 50% 0%, #0e2a5e 0%, #000 70%);
   overflow: hidden;
   perspective: 1000px;
 }
@@ -1479,6 +1479,7 @@ body {
 
 /* ── Falling petals ── */
 .petals {
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
