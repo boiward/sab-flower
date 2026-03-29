@@ -10,6 +10,11 @@ window.addEventListener('load', () => {
     audioPlayer.play();
     setTimeout(() => {
       garden.style.display = 'block';
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
+          garden.classList.add('garden-visible');
+        });
+      });
     }, 500);
   });
 });
