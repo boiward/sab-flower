@@ -8,7 +8,7 @@ window.addEventListener('load', () => {
 
   playButton.addEventListener('click', () => {
     playButton.style.opacity = '0';
-    audioPlayer.volume = 0.2;
+    audioPlayer.volume = 0.15;
     audioPlayer.play();
     setTimeout(() => {
       garden.style.display = 'block';
